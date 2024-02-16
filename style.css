@@ -104,7 +104,7 @@ header{
     font-size: 40px;
     background-color: var(--accent-color);
     height: 10px;
-    width: 40%;
+    width: 80%;
     min-height: 2rem;
 
 
@@ -117,7 +117,7 @@ header{
     font-size: 40px;
     background-color:rgb(202, 202, 202);
     height: 10px;
-    width: 30%;
+    width: 70%;
     min-height: 2rem;
 }
 
@@ -128,6 +128,6 @@ header{
     font-size: 40px;
     background-color:#3271d8;
     height: 10px;
-    width: 50%;
+    width: 90%;
     min-height: 2rem;
 }
