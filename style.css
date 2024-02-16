@@ -1,0 +1,127 @@
+/* color pallet */
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #2461bd;
+    --accent-color: #d8404c;
+    --text-color: #333333;
+    --background-color: #000000;
+}
+
+
+body{
+    background-color: var(--background-color);
+}
+
+
+@font-face {
+    font-family: 'chopsic';
+    src: src(assets/fonts/chopsic);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Header */
+
+@keyframes car1-slide {
+    from {
+        padding-left: 50%;
+    }
+    to {
+        padding-left: 10%;
+    }
+}
+@keyframes car2-slide {
+    from {
+        padding-right: 50%;
+    }
+    to {
+        padding-right: 3%;
+    }
+}
+@keyframes car3-slide {
+    from {
+        padding-left: 50%;
+    }
+    to {
+        padding-left: 0%;
+    }
+}
+
+
+header{
+    display: grid;
+    padding: 2vh 2vh 2vh 2vh;
+    font-family: 'chopsic';
+    color:#131831;
+    text-align: middle;
+    gap: 0.5vh;
+}
+
+.wor{
+    /* display: grid;
+    grid-template-columns: 200fr;
+    align-items: center; */
+    padding-left: 6%;
+    border-radius: 2.5em;
+    
+}
+
+/* .wor img {
+    justify-self: end;
+} */
+
+.cars1 {
+    width: 6rem;
+    transform: scalex(-1);
+    /* padding-left: 10%; */
+    animation: car1-slide 10s ease-out forwards;
+
+}
+
+.cars2 {
+    width: 6rem;
+    height: 2.5rem;
+    /* padding-right: 5%; */
+    animation: car2-slide 10s ease-out forwards;
+}
+
+.cars3 {
+    width: 7rem;
+    transform: scalex(-1);
+    /* padding-left: 7%; */
+    animation: car1-slide 10s ease-out forwards;
+}
+
+.red-stripe{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 5vh;
+    background-color: var(--accent-color);
+    height: 5vh;
+    width: 40%;
+
+
+}
+
+.white-stripe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 5vh;
+    background-color:rgb(202, 202, 202);
+    height: 5vh;
+    width: 30%;
+}
+
+.blue-stripe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 5vh;
+    background-color:#3271d8;
+    height: 5vh;
+    width: 50%;
+}
