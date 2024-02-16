@@ -72,7 +72,7 @@ header{
 } */
 
 .cars1 {
-    width: 6rem;
+    height: 75%;
     transform: scalex(-1);
     max-height: 2rem;
     /* padding-left: 10%; */
@@ -81,15 +81,15 @@ header{
 }
 
 .cars2 {
-    width: 6rem;
-    height: 2.5rem;
+    /* width: 6rem; */
+    height: 75%;
     max-height: 2rem;
     /* padding-right: 5%; */
     animation: car2-slide 10s ease-out forwards;
 }
 
 .cars3 {
-    width: 7rem;
+    height: 75%;
     max-height: 2rem;
     transform: scalex(-1);
     /* padding-left: 7%; */
@@ -101,9 +101,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 2.5rem;
+    font-size: 40px;
     background-color: var(--accent-color);
-    height: 5vh;
+    height: 10px;
     width: 40%;
     min-height: 2rem;
 
@@ -114,9 +114,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 2.5rem;
+    font-size: 40px;
     background-color:rgb(202, 202, 202);
-    height: 5vh;
+    height: 10px;
     width: 30%;
     min-height: 2rem;
 }
@@ -125,9 +125,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 2.5rem;
+    font-size: 40px;
     background-color:#3271d8;
-    height: 5vh;
+    height: 10px;
     width: 50%;
     min-height: 2rem;
 }
