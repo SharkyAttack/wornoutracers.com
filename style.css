@@ -25,7 +25,7 @@ body{
 
 @keyframes car1-slide {
     from {
-        padding-left: 50%;
+        padding-left: 90%;
     }
     to {
         padding-left: 10%;
@@ -33,7 +33,7 @@ body{
 }
 @keyframes car2-slide {
     from {
-        padding-right: 50%;
+        padding-right: 90%;
     }
     to {
         padding-right: 3%;
@@ -41,7 +41,7 @@ body{
 }
 @keyframes car3-slide {
     from {
-        padding-left: 50%;
+        padding-left: 90%;
     }
     to {
         padding-left: 0%;
@@ -76,7 +76,7 @@ header{
     transform: scalex(-1);
     max-height: 2rem;
     /* padding-left: 10%; */
-    animation: car1-slide 10s ease-out forwards;
+    animation: car1-slide 5s ease-out forwards;
 
 }
 
@@ -85,7 +85,7 @@ header{
     height: 75%;
     max-height: 2rem;
     /* padding-right: 5%; */
-    animation: car2-slide 10s ease-out forwards;
+    animation: car2-slide 5s ease-out forwards;
 }
 
 .cars3 {
@@ -93,7 +93,7 @@ header{
     max-height: 2rem;
     transform: scalex(-1);
     /* padding-left: 7%; */
-    animation: car1-slide 10s ease-out forwards;
+    animation: car1-slide 5s ease-out forwards;
 }
 
 .red-stripe{
